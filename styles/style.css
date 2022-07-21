@@ -227,8 +227,8 @@ margin-right: 25px;
     background-color: #161616;
     
 height: 444px;
-padding-left: 0%;
-margin-top: ;
+
+
   
    
 
@@ -271,6 +271,38 @@ border: 1px solid rgba(255, 255, 255, 0.1);
     
 }
 .one-line{
+   display: flex;
    
-   
+}
+/* 2ndhtml  */
+.VS{
+    display: flex;
+}
+.container3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.setup{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.ppppp{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.aaaaa{
+   display:flex;
+}
+/* media queries  */
+/* mobile devices */
+@media screen and (max-width:668px){
+    .three-button,.grp,.blogs{
+
+    }
+    .part2{
+        grid-template-columns: repeat(1,1fr); 
+    }
 }
